@@ -2,10 +2,27 @@
     width: 100%;
     height: 200px;
     background-color: red;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 body{
   margin: 0;
   padding: 0;
+
+}
+.divround1{
+
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.divround2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+
 
 }
